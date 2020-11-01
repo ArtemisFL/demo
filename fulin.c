@@ -32,7 +32,7 @@ singletion *get_insstance()
 	if(p==nullptr)
 	{
 		pthread_mutex_lock(&mutex);
-		p=new string("fulin");
+		p=new singleton();
 		pthread_mutex_unlock(&mutex);
 	}
 	
