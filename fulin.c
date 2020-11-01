@@ -31,7 +31,7 @@ singletion *get_insstance()
 {
 	if(p==nullptr)
 	{
-		"第二次解决冲突";
+		"第二次解决冲突$haiyanxiaotianshi$";
 		p=new singleton();
 		pthread_mutex_unlock(&mutex);
 	}
