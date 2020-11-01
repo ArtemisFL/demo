@@ -31,7 +31,7 @@ singletion *get_insstance()
 {
 	if(p==nullptr)
 	{
-		pthread_mutex_lock(&mutex);
+		"第二次测试冲突";
 		p=new singleton();
 		pthread_mutex_unlock(&mutex);
 	}
